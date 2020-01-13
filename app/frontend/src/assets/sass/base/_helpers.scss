@@ -1,0 +1,252 @@
+/*================ Helper Classes ================*/
+.visually-hidden {
+    position: absolute !important;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+// Only show when JS is not supported
+.no-js:not(html) {
+    display: none;
+
+    .no-js & {
+    display: block;
+    }
+}
+
+// Only show when JS is supported
+.js {
+    .no-js & {
+    display: none;
+    }
+}
+
+// Only show when browser cookies are not supported
+.supports-no-cookies:not(html) {
+    display: none;
+
+    html.supports-no-cookies & {
+    display: block;
+    }
+}
+
+// Only show when browser cookies are supported
+.supports-cookies {
+    html.supports-no-cookies & {
+    display: none;
+    }
+}
+
+// Colors
+////////////////////////////////////////////////////////
+.color-white {
+    color: $color-white;
+}
+
+// Card
+////////////////////////////////////////////////////////
+.card {
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: $color-white;
+}
+
+// Container
+///////////////////////////////////////////////////////
+%container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 40px;
+
+    @media (max-width: 768px) {
+        padding: 40px 20px;
+    }
+}
+
+// Fonts
+////////////////////////////////////////////////////////
+// .font-primary {
+//     font-family: $font-stack-primary;
+//     font-weight: 100;
+//     text-transform: uppercase;
+// }
+
+// .font-secondary {
+//     font-family: $font-stack-secondary !important;
+// }
+
+// Transitions & Effects
+////////////////////////////////////////////////////////
+%transition {
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+}
+
+.transition--all {
+    @extend %transition;
+    transition-property: all;
+}
+
+// Section Spacing
+////////////////////////////////////////////////////////
+.section-spacing-y  {
+    padding-top: $section-spacing;
+    padding-bottom: $section-spacing;
+}
+
+.section-spacing-t {
+    padding-top: $section-spacing;
+}
+
+.section-spacing-b {
+    padding-bottom: $section-spacing;
+}
+
+// Images
+////////////////////////////////////////////////////////
+img {
+    &.full-width {
+    width: 100%;
+    }
+}
+
+// Align
+////////////////////////////////////////////////////////
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right
+}
+
+// HRs
+hr {
+    margin: 15px 0;
+}
+
+.hr--clear {
+    border: 0;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.hr--small {
+    margin: 10px 0;
+}
+
+// Unstyled
+a.unstyled {
+    text-decoration: none;
+}
+
+// Spacing Class Helpers
+$spacing-increment: 10;
+$spacing-max: 100;
+$spacing-count: $spacing-max / $spacing-increment;
+@mixin spacing-helper {
+    @for $i from 1 through $spacing-count {
+        .p#{$i} { 
+            padding: ($i * $spacing-increment) + px;
+            
+            @media (max-width: 768px) {
+                padding: ($i * $spacing-increment / 2) + px;
+            }
+        }
+
+        .pt#{$i} { 
+            padding-top: ($i * $spacing-increment) + px;
+            
+            @media (max-width: 768px) {
+                padding-top: ($i * $spacing-increment / 2) + px;
+            }
+        }
+
+        .pb#{$i} { 
+            padding-bottom: ($i * $spacing-increment) + px;
+            
+            @media (max-width: 768px) {
+                padding-bottom: ($i * $spacing-increment / 2) + px;
+            }
+        }
+
+        .py#{$i} { 
+            padding-top: ($i * $spacing-increment) + px;
+            padding-bottom: ($i * $spacing-increment) + px;
+
+            @media (max-width: 768px) {
+                padding-top: ($i * $spacing-increment / 2) + px;
+                padding-bottom: ($i * $spacing-increment / 2) + px;
+            }
+        }
+
+        .px#{$i} { 
+            padding-left: ($i * $spacing-increment) + px;
+            padding-right: ($i * $spacing-increment) + px;
+
+            @media (max-width: 768px) {
+                padding-left: ($i * $spacing-increment / 2) + px;
+                padding-right: ($i * $spacing-increment / 2) + px;
+            }
+        }
+
+        .m#{$i} { 
+            margin: ($i * $spacing-increment) + px;
+            
+            @media (max-width: 768px) {
+                margin: ($i * $spacing-increment / 2) + px;
+            }
+        }
+
+        .mt#{$i} { 
+            margin-top: ($i * $spacing-increment) + px;
+
+            @media (max-width: 768px) {
+                margin-top: ($i * $spacing-increment / 2) + px;
+            }
+        }
+
+        .mb#{$i} { 
+            margin-bottom: ($i * $spacing-increment) + px;
+
+            @media (max-width: 768px) {
+                margin-bottom: ($i * $spacing-increment / 2) + px;
+            }
+        }
+
+        .my#{$i} { 
+            margin-top: ($i * $spacing-increment / 2) + px;
+            margin-bottom: ($i * $spacing-increment / 2) + px;
+
+            @media (max-width: 768px) {
+                margin-top: ($i * $spacing-increment) + px;
+                margin-bottom: ($i * $spacing-increment) + px;
+            }
+        }
+
+        .mx#{$i} { 
+            margin-left: ($i * $spacing-increment) + px;
+            margin-right: ($i * $spacing-increment) + px;
+
+            @media (max-width: 768px) {
+                margin-left: ($i * $spacing-increment / 2) + px;
+                margin-right: ($i * $spacing-increment / 2) + px;
+            }
+        }
+    }
+}
+
+@include spacing-helper;

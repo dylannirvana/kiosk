@@ -1,0 +1,142 @@
+{
+  "designers": {
+    "label": "Our Designers",
+    "handle": "our-designers",
+    "hidden": true,
+    "activeFilterLabels": [
+      "designer",
+      "finish",
+      "height",
+      "is_instock",
+      "price",
+      "width"
+    ],
+    "subCategories": [
+      {
+        "img_thumbnail": "/static/imgs/designer/all.jpg",
+        "img": "/static/imgs/designer/all.jpg",
+        "label": "View All"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/03_ARN_1.png",
+        "img": "/static/imgs/designer/03_ARN_1.png",
+        "label": "Aerin"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Barbara_Barry_large_4.png",
+        "img": "/static/imgs/designer/Barbara_Barry_large_4.png",
+        "label": "Barbara Barry"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Peter_Bristol2_2.jpg",
+        "img": "/static/imgs/designer/Peter_Bristol2_2.jpg",
+        "label": "Peter Bristol"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/E._F._Chapman.jpg",
+        "img": "/static/imgs/designer/E._F._Chapman.jpg",
+        "label": "E. F. Chapman"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Clodagh_2.jpg",
+        "img": "/static/imgs/designer/Clodagh_2.jpg",
+        "label": "Clodagh"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Eric_Cohler_new.jpg",
+        "img": "/static/imgs/designer/Eric_Cohler_new.jpg",
+        "label": "Eric Cohler"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Ian_Fowler_1.jpg",
+        "img": "/static/imgs/designer/Ian_Fowler_1.jpg",
+        "label": "Ian K. Fowler"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Barry_Goralnick_2.jpg",
+        "img": "/static/imgs/designer/Barry_Goralnick_2.jpg",
+        "label": "Barry Goralnick"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Alexa_Hampton_1.jpg",
+        "img": "/static/imgs/designer/Alexa_Hampton_1.jpg",
+        "label": "Alexa Hampton"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/SK_BW.jpg",
+        "img": "/static/imgs/designer/SK_BW.jpg",
+        "label": "Suzanne Kasler"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Kate_Spade.png",
+        "img": "/static/imgs/designer/Kate_Spade.png",
+        "label": "kate spade new york"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Ralph_Lauren_new.png",
+        "img": "/static/imgs/designer/Ralph_Lauren_new.png",
+        "label": "Ralph Lauren"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Sean_Lavin.jpg",
+        "img": "/static/imgs/designer/Sean_Lavin.jpg",
+        "label": "Sean Lavin"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Julie_Neill_3.jpg",
+        "img": "/static/imgs/designer/Julie_Neill_3.jpg",
+        "label": "Julie Neill"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Joe_Nye_1.jpg",
+        "img": "/static/imgs/designer/Joe_Nye_1.jpg",
+        "label": "Joe Nye"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Thomas_O_Brien_1.jpg",
+        "img": "/static/imgs/designer/Thomas_O_Brien_1.jpg",
+        "label": "Thomas O'Brien"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/J_Randall_Powers_1.jpg",
+        "img": "/static/imgs/designer/J_Randall_Powers_1.jpg",
+        "label": "J. Randall Powers"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/John_Rosselli_2.jpg",
+        "img": "/static/imgs/designer/John_Rosselli_2.jpg",
+        "label": "John Rosselli"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Michael_S_Smith_1.jpg",
+        "img": "/static/imgs/designer/Michael_S_Smith_1.jpg",
+        "label": "Michael S Smith"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Christopher_Spitzmiller.jpg",
+        "img": "/static/imgs/designer/Christopher_Spitzmiller.jpg",
+        "label": "Christopher Spitzmiller"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Studio_Collection.png",
+        "img": "/static/imgs/designer/Studio_Collection.png",
+        "label": "Studio VC"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/TLStudio.png",
+        "img": "/static/imgs/designer/TLStudio.png",
+        "label": "TL Studio"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Kelley_Wearstler_3.jpg",
+        "img": "/static/imgs/designer/Kelley_Wearstler_3.jpg",
+        "label": "Kelly Wearstler"
+      },
+      {
+        "img_thumbnail": "/static/imgs/designer/Niermann_Weeks.png",
+        "img": "/static/imgs/designer/Niermann_Weeks.png",
+        "label": "Niermann Weeks"
+      }
+    ]
+  }
+}

@@ -1,0 +1,366 @@
+{
+    "categoryList": {
+        "floor": {
+            "label": "Floor",
+            "handle": "floor",
+            "activeFilterLabels": [
+                "designer",
+                "finish",
+                "height",
+                "width",
+                "is_instock",
+                "price"
+            ],
+            "featured": true,
+            "images": [
+                "/static/imgs/floor/1.png",
+                "/static/imgs/floor/2.png",
+                "/static/imgs/floor/3.png"
+            ]
+        },
+        "wall": {
+            "label": "Wall",
+            "handle": "wall",
+            "activeFilterLabels": [
+                "designer",
+                "finish",
+                "height",
+                "width",
+                "is_instock",
+                "price"
+            ],
+            "featured": true,
+            "images": [
+                "/static/imgs/wall/1.png",
+                "/static/imgs/wall/2.png",
+                "/static/imgs/wall/3.png"
+            ]
+        },
+        "table": {
+            "label": "Table",
+            "handle": "table",
+            "activeFilterLabels": [
+                "designer",
+                "finish",
+                "height",
+                "width",
+                "is_instock",
+                "price"
+            ],
+            "featured": true,
+            "images": [
+                "/static/imgs/table/1.png",
+                "/static/imgs/table/2.png",
+                "/static/imgs/table/3.png"
+            ]
+        },
+        "ceiling": {
+            "label": "Ceiling",
+            "handle": "ceiling",
+            "activeFilterLabels": [
+                "designer",
+                "finish",
+                "height",
+                "width",
+                "is_instock",
+                "price"
+            ],
+            "featured": true,
+            "images": [
+                "/static/imgs/ceiling/1.png",
+                "/static/imgs/ceiling/2.png",
+                "/static/imgs/ceiling/3.png"
+            ]
+        },
+        "outdoor": {
+            "label": "Outdoor",
+            "handle": "outdoor",
+            "activeFilterLabels": [
+                "designer",
+                "finish",
+                "height",
+                "width",
+                "is_instock",
+                "price"
+            ],
+            "featured": true,
+            "images": [
+                "/static/imgs/outdoor/1.png",
+                "/static/imgs/outdoor/2.png",
+                "/static/imgs/outdoor/3.png"
+            ]
+        },
+        "fans": {
+            "label": "Fans",
+            "handle": "fans",
+            "activeFilterLabels": [
+                "finish",
+                "height",
+                "width",
+                "is_instock",
+                "price"
+            ],
+            "featured": true,
+            "images": [
+                "/static/imgs/fans/1.png",
+                "/static/imgs/fans/2.png",
+                "/static/imgs/fans/3.png"
+            ]
+        },
+        "designers": {
+            "label": "Our Designers",
+            "handle": "our-designers",
+            "activeFilterLabels": [
+                "designer",
+                "finish",
+                "height",
+                "width",
+                "is_instock",
+                "price"
+            ],
+            "featured": false
+        }
+    },
+    "filterList" : [
+        {
+            "label": "Designer",
+            "optionKey": "designer",
+            "optionKeyRoot": "root",
+            "type": "match",
+            "dynamic": true
+        },
+        {
+            "label": "Finish",
+            "optionKey": "finish",
+            "optionKeyRoot": "z_options",
+            "type": "match",
+            "dynamic": true
+        },
+        {
+            "label": "Height",
+            "options": [
+                "0\" - 5\"",
+                "5\" - 10\"",
+                "10\" - 15\"",
+                "15\" - 20\"",
+                "20\" - 25\"",
+                "25\" - 30\"",
+                "30\" - 35\"",
+                "35\" - 40\"",
+                "40\" - 45\"",
+                "45\" - 50\"",
+                "50\" - 55\"",
+                "55\" - 60\"",
+                "60\" - 65\"",
+                "65\" - 70\"",
+                "70\" - 75\"",
+                "75\" - 80\""
+            ],
+            "optionKey": "height",
+            "optionKeyRoot": "z_criteria",
+            "type": "range",
+            "dynamic": false
+        },
+        {
+            "label": "Width",
+            "options": [
+                "0\" - 5\"",
+                "5\" - 10\"",
+                "10\" - 15\"",
+                "15\" - 20\"",
+                "20\" - 25\"",
+                "25\" - 30\"",
+                "30\" - 35\"",
+                "35\" - 40\"",
+                "40\" - 45\"",
+                "45\" - 50\"",
+                "50\" - 55\"",
+                "55\" - 60\"",
+                "60\" - 65\"",
+                "65\" - 70\"",
+                "70\" - 75\""
+            ],
+            "optionKey": "width",
+            "optionKeyRoot": "z_criteria",
+            "type": "range",
+            "dynamic": false
+        },
+        {
+            "label": "Availability",
+            "options": [
+                "In Stock"
+            ],
+            "optionKey": "is_instock",
+            "optionKeyRoot": "root",
+            "type": "boolean",
+            "dynamic": false
+        },
+        {
+            "label": "Price Range",
+            "options": [
+                "$0.00 - $499.99",
+                "$500.00 - $999.99",
+                "$1,000.00 - $1,499.99",
+                "$1,500.00 - $1,999.99",
+                "$2,000.00 - $2,499.99",
+                "$2,500.00 - $2,999.99",
+                "$3,000.00 - $3,499.99",
+                "$3,500.00 - $3,999.99",
+                "$4,000.00 - $4,499.99",
+                "$4,500.00 and above"
+            ],
+            "optionKey": "price",
+            "optionKeyRoot": "root",
+            "type": "range",
+            "dynamic": false
+        }
+    ],
+    "slideshows": [
+        {
+            "id": 1,
+            "label": "Slideshow One",
+            "images": [
+                "/static/imgs/floor/1.png",
+                "/static/imgs/floor/2.png",
+                "/static/imgs/floor/3.png"
+            ]
+        },
+        {
+            "id": 2,
+            "label": "Slideshow Two",
+            "images": [
+                "/static/imgs/floor/1.png",
+                "/static/imgs/floor/2.png",
+                "/static/imgs/floor/3.png"
+            ]
+        },
+        {
+            "id": 3,
+            "label": "Slideshow Three",
+            "images": [
+                "/static/imgs/floor/1.png",
+                "/static/imgs/floor/2.png",
+                "/static/imgs/floor/3.png"
+            ]
+        },
+        {
+            "id": 4,
+            "label": "Slideshow Four",
+            "images": [
+                "/static/imgs/floor/1.png",
+                "/static/imgs/floor/2.png",
+                "/static/imgs/floor/3.png"
+            ]
+        }
+    ],
+    "logs": [
+        {
+            "tbl": {
+            "date": "2018-12-13T14:55:06.997Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Finished processing feed",
+            "status": "success"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T14:49:28.993Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Starting to process feed",
+            "status": "success"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T14:19:51.217Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Finished processing feed",
+            "status": "success"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T14:15:08.400Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Starting to process feed",
+            "status": "success"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T14:08:58.805Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Finished processing feed",
+            "status": "success"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T14:05:29.590Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Starting to process feed",
+            "status": "success"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T06:49:13.026Z",
+            "error": "Processing failed during product update",
+            "from": "/sync/feed",
+            "payload": "Finished processing feed",
+            "status": "error"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T06:44:55.351Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Starting to process feed",
+            "status": "success"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T06:43:55.790Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Finished processing feed",
+            "status": "success"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T06:39:54.177Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Starting to process feed",
+            "status": "success"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T06:38:07.870Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Starting to process feed",
+            "status": "success"
+            }
+        },
+        {
+            "tbl": {
+            "date": "2018-12-13T06:23:06.195Z",
+            "error": "",
+            "from": "/sync/feed",
+            "payload": "Finished processing feed",
+            "status": "success"
+            }
+        }
+    ]
+}

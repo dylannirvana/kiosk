@@ -1,0 +1,85 @@
+// Spacing
+$pad : 1em;
+
+// Base Colors
+$color-white:           #fff;
+$color-black:           #000;
+$color-boring-gray:     #ccc;
+
+// Brand Colors
+$circa-gray:            rgb(113, 112, 115);
+$light-gray:            rgb(248, 248, 248);
+$medium-gray:           rgb(102, 102, 102);
+$dark-gray:             rgb(51, 51, 51);
+
+// Shopify Default Color
+$color-primary:         $circa-gray;
+
+// Text colors
+$color-body-text:       $dark-gray;
+
+// Backgrounds
+$color-body:            $color-white;
+
+// Border colors
+$color-border:          $light-gray;
+
+// Helper colors for form error states
+$color-disabled:        #fff;
+$color-disabled-border: $light-gray;
+$color-error:           red;
+$color-error-bg:        red;
+$color-success:         #000;
+$color-success-bg:      #1CBB63;
+
+/*================ Typography Variables ================*/
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$font-size-base: 16px;
+$font-sans: "Helvetica Neue";
+
+// Font Sizing
+$baseFontSize      : 16px;
+$baseLineHeight    : 1.5;
+$headingLineHeight : 1.2;
+
+/*============================================================================
+  Grid Breakpoints and Class Names
+    - Do not change the variable names
+==============================================================================*/
+$grid-medium:           825px;
+$grid-large:            1100px;
+$grid-widescreen:       1400px;
+
+/*================ Sizing Variables ================*/
+$container-width:       1200px;
+$container-padding:     0 5%;
+$gutter:                20px;
+$section-spacing:       60px;
+
+$button-padding:        15px 15px 12px;
+$input-padding:         14px;
+$spacer:                1rem;
+$inline-input-padding:  18px 12px 6px;
+
+/*================ Z-Index ================*/
+$z-index-dropdown: 2;
+$z-index-skip-to-content: 10000; // really high to be safe of app markup
+
+/*================ SVG ================*/
+
+
+/*================ CSS ANIMATED TIMING ================*/
+.animated {
+  -webkit-animation-duration: .4s !important;
+  animation-duration: .4s !important;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+%container-admin {
+  width: 100%;
+  padding: 0 16px;
+  max-width: $container-width;
+  margin: 0 auto;
+}

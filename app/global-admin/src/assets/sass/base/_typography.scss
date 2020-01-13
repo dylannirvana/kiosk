@@ -1,0 +1,44 @@
+html {
+  font-family: $font-sans, sans;
+  font-weight: 300;
+  color: $medium-gray;
+  line-height: $baseLineHeight;
+  font-size: 14px;
+  
+  @media only screen and (min-width: $grid-medium) {
+    font-size: 15px;
+  }
+  
+  @media only screen and (min-width: $grid-large) {
+    font-size: $baseFontSize;
+  }  
+}
+
+// Header Styles
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: $pad;
+  line-height: $headingLineHeight;
+  letter-spacing: 0;
+
+  a {
+    font-weight: inherit;
+  }
+}
+
+h2 {
+  font-size: 32px;
+  letter-spacing: 0;
+}
+
+p {
+  margin-bottom: $pad;
+  color: $color-black;
+  font-weight: 300;
+}
+
+// Text Styles
+em { font-style: italic; }
+strong { font-weight: bold; }
+.uppercase { text-transform: uppercase; }  
